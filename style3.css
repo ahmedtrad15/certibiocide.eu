@@ -29,14 +29,12 @@ a {
 .logo {
   display: flex;
   align-items: center;
-  font-weight: bold;
-  font-size: 1.2rem;
-  color: #0D4C46;
+  max-width: 200px;
+  max-height: 80px;
+
 }
 
-.logo svg {
-  margin-right: 0.5rem;
-}
+
 
 .nav-menu a {
   margin-left: 1.5rem;
@@ -159,6 +157,10 @@ a {
 .hero-text p {
   font-size: 14px;
   text-align: center;
+}
+
+.logo {
+  align-items: center;
 }
 }
 
